@@ -92,7 +92,7 @@ def main() -> None:
     new_fitness = griewank(improved_worst_fly)
     
     # Display results with clean formatting
-    print("\nResults using Attractiveness Parameter 1 ")
+    print("\nResults")
 
     print(f"Old Fitness: {old_fitness:.6f}")
     print(f"Old Position: [{', '.join(f'{x:.6f}' for x in old_position)}]")
